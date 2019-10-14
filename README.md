@@ -11,6 +11,8 @@ kegagalan saat menjalankan perintah git commit
 $ git config --global user.name “nama_user”
 $ git config --global user.email “nama_user”
 
+![ettt1](https://user-images.githubusercontent.com/44828458/66756220-bbe6a880-eec3-11e9-9d9d-0343d8064088.png)
+
 	Membuat Reposiory Local
 • Buka direktory aktif, misal: d:\labs_pemrograman1 (buka
 menggunakan Windows Explorer)
@@ -24,6 +26,8 @@ directory)
 $ mkdir latihan1
 $ cd latihan1
 
+![oiiiiiiiiiiii1235](https://user-images.githubusercontent.com/44828458/66757866-45e44080-eec7-11e9-962e-a2fd0c9f2af9.png)
+
 	Membuat Reposiory Local
 • Jalankan perintah git init, untuk membuat repository local.
 • Repository baru berhasil di inisialisasi, dengan terbentuknya satu
@@ -32,6 +36,8 @@ direktori hidden dengan nama .git
 akan disimpan.
 $ git init
 
+![gitiu 2-](https://user-images.githubusercontent.com/44828458/66757526-94450f80-eec6-11e9-8ec5-10004cac48a9.png)
+
 	Menambahkan File baru pada repository
 • Untuk membuat file dapat menggunakan text editor, lalu menyimpan
 filenya pada direktori aktif (repository)
@@ -39,6 +45,7 @@ filenya pada direktori aktif (repository)
 • File README.md berhasil dibuat.
 $ echo “#Latihan 1” >> README.md
 
+![redme `](https://user-images.githubusercontent.com/44828458/66758246-1b46b780-eec8-11e9-8b40-52d071a2188c.png)
 
 	Menambahkan File baru pada repository
 • Untuk menambahkan file yang baru saja dibuat tersebut gunakan
@@ -46,6 +53,7 @@ perintah git add.
 • File README.md berhasil ditambahkan.
 $ git add README.md
 
+![redme 34](https://user-images.githubusercontent.com/44828458/66758725-11718400-eec9-11e9-82fb-fc36d70689e9.png)
 
 	Commit (Menyimpan perubahan ke database)
 • Untuk menyimpan perubahan yang ada kedalam database repository
@@ -53,6 +61,7 @@ local, gunakan perintah git commit -m “komentar commit”
 • Perubahan berhasil disimpan.
 $ git commit -m “File pertama saya”
 
+![comit](https://user-images.githubusercontent.com/44828458/66758579-bb9cdc00-eec8-11e9-864d-2dadd7c2f23a.png)
 
 	Membuat repository server
 • Server reopsitory yang akan kita gunakan adalah http://github.com
@@ -81,6 +90,8 @@ perintah git push.
 pada akun github.com
 $ git push -u origin master
 
+![push 1](https://user-images.githubusercontent.com/44828458/66759244-17b43000-eeca-11e9-8219-b7d344a4f9b7.png)
+
 	Melihat hasilnya pada server repository
 • Buka laman github.com,
 arahkan pada repositorinya.
@@ -93,6 +104,8 @@ tersebut
 dan secara otomatis membuat satu direktory sesuai dengan nama
 repositorynya (working directory).
 • Untuk melakukan cloning, gunakan perintah git clone [url]
+
+![clone 1](https://user-images.githubusercontent.com/44828458/66759455-7d082100-eeca-11e9-91f4-c1a713e53ebc.png)
 
 	Kegunaan file README.md
 • Apabila kita menggunakan github, untuk memberikan penjelasan
