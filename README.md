@@ -80,7 +80,7 @@ digunakan untuk menyimpan setiap perubahan pada local repository,
 sehingga dapat diakses oleh banyak user.
 • Untuk menambahkan remote repository server, gunakan perintah
 git remote add origin [url]
-$ git remote add origin https://github.com/abuazzam/labpy1.git
+$ git remote add origin https://github.com/syahlansugiarto/Latihan01.git
 
 
 	Push (Mengirim perubahan ke server)
